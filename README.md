@@ -47,7 +47,7 @@ print("~^~^~^~^~^~^~^~^~^~^~^~^~")
 print("\n")
 
 # Cryptomon API credentials
-CLIENT_ID = "<API_CLIENT_ID"
+CLIENT_ID = "<API_CLIENT_ID>"
 CLIENT_SECRET = "<API_CLIENT_SECRET>"
 
 c = ApiClient(CLIENT_ID, CLIENT_SECRET)
@@ -80,7 +80,7 @@ plot_trade_data(process_data(rows))
 
 
     Requesting access_token...
-    Success, access_token: 7c0790b5-f593-2d56-bfa5-82106a0e361b, expires_in: 3599
+    Success, access_token: 7c0790b5-f593-2d56-bfa5-82106a0e362b, expires_in: 3599
     Request, url: https://api.cryptomon.io/api/v1/trades, params: {'timestampTo': '1503305576000', 'currencyPair': 'BTC_USD', 'market': 'BITSTAMP', 'timestampFrom': '1503301976000'}
     Success, status_code: 200
 
